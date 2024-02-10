@@ -8,7 +8,7 @@ To set up the `results.html`  in your quiz app, you can use the following custom
 ## Snippet for results.html
 
 ```json
-{
+
   "HTML Template for Quiz App Results Page": {
     "prefix": "quizAppResultsHtml",
     "body": [
@@ -22,7 +22,7 @@ To set up the `results.html`  in your quiz app, you can use the following custom
       "{% endblock %}"
     ],
     "description": "This snippet inserts the results.html content for the quiz app, displaying the player's final score and an option to play again."
-  }
+  
 }
 ```
 

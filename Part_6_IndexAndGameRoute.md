@@ -3,7 +3,6 @@
 To set up the `index.html` and `game.html` templates to work with Flask, use the custom snippet below in your routes.py. This snippet should be placed in your code editor's user snippets file for Python:
 
 ```json
-{
   "Flask Routes for Index and Game HTML": {
     "prefix": "quizAppRoutes",
     "body": [
@@ -40,5 +39,5 @@ To set up the `index.html` and `game.html` templates to work with Flask, use the
       "    return render_template('game.html', question=question)"
     ],
     "description": "Flask routes for initializing the index and game functionality in the Quiz App."
-  }
+
 }

@@ -8,7 +8,6 @@ To add this HTML game template as a custom snippet for the `game.html` page in y
 4. Insert the following JSON code into your snippets file:
 
 ```json
-{
   "HTML Game Template for Quiz App": {
     "prefix": "quizAppGameHtml",
     "body": [
@@ -37,5 +36,4 @@ To add this HTML game template as a custom snippet for the `game.html` page in y
       "{% endblock %}"
     ],
     "description": "Use this snippet to insert the game.html content for the quiz app, which is used to display the game's questions and choices to the player."
-  }
 }

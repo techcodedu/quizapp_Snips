@@ -8,7 +8,6 @@ To add this HTML template as a custom snippet for the `index.html` page in your 
 4. Insert the following JSON code into your snippets file:
 
 ```json
-{
   "HTML Template for Quiz App Index Page": {
     "prefix": "quizAppIndexHtml",
     "body": [
@@ -38,5 +37,4 @@ To add this HTML template as a custom snippet for the `index.html` page in your 
       "{% endblock %}"
     ],
     "description": "Use this snippet to insert the index.html content for the quiz app where players enter their name to start the game."
-  }
 }

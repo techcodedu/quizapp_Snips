@@ -3,7 +3,7 @@
 To finalize and display the game results in your quiz app, implement the following `results` route in your Flask application's `routes.py` file:
 
 ```json
-{
+
   "Flask Route for Game Results": {
     "prefix": "quizAppResultsRoute",
     "body": [
@@ -51,5 +51,5 @@ To finalize and display the game results in your quiz app, implement the followi
       "    return render_template('results.html', score=score, player_name=player_name)"
     ],
     "description": "This route calculates the final score and duration of play, stores player details and score in the database, clears the session, and displays the results page."
-  }
+  
 }

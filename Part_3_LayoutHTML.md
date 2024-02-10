@@ -8,7 +8,6 @@ To add this HTML layout template as a custom snippet for the `layout.html` page 
 4. Add the following JSON code to your snippets file:
 
 ```json
-{
   "HTML Layout Template for Quiz App": {
     "prefix": "quizAppLayoutHtml",
     "body": [
@@ -44,5 +43,4 @@ To add this HTML layout template as a custom snippet for the `layout.html` page 
       "</html>"
     ],
     "description": "Use this snippet to insert the layout.html content for the quiz app, which includes the standard HTML structure, Bootstrap, and custom styles."
-  }
 }
